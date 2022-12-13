@@ -58,7 +58,7 @@ img{
 .btn{
     display: block;
     font-family: var(--fontFamilyExtra);
-    background-color: var(--mainColor);
+    background-color: white;
     border-radius: 5rem;
     position: relative;
     overflow: hidden;
@@ -96,7 +96,7 @@ img{
 .title span{
     font-size: 1.7rem;
     font-family: var(--fontFamilyExtra);
-    color: var(--bgColor);
+    color: white;
     font-weight: 500;
     text-transform: capitalize;
     margin-bottom: .5rem;
@@ -277,7 +277,7 @@ header .container .toggle-btn.active span:nth-child(2){
 }
 
 .home .container .content .left h3 span{
-    color: #b4afc6;
+    color: white;
 }
 
 .home .container .content .left p{
@@ -286,6 +286,7 @@ header .container .toggle-btn.active span:nth-child(2){
     font-size: 1.7rem;
     font-weight: 500;
     margin-bottom: 3.5rem;
+    color: white;
 }
 
 .home .container .content .left a{
@@ -345,6 +346,7 @@ header .container .toggle-btn.active span:nth-child(2){
 
 .boxes .container .content .box P{
     text-align: justify;
+    color: white;
 }
 
 /*fim boxes*/
@@ -427,9 +429,14 @@ header .container .toggle-btn.active span:nth-child(2){
     margin-bottom: 2rem;
 }
 
+.about .container .content .right p{
+    color: white;
+    text-align: justify;
+}
+
 .about .container .content .right .list{
     border-radius: 1rem;
-    border: .2rem solid var(--mainColor);
+    border: .2rem solid white;
     margin-top: 3.2rem;
     margin-bottom: 4rem;
 }
@@ -447,4 +454,35 @@ header .container .toggle-btn.active span:nth-child(2){
     margin-top: -.2rem;
     margin-left: -.2rem;
     overflow: hidden;
+}
+
+.about .container .content .right .list ul li .item{
+    padding: 2.5rem 3.5rem;
+}
+.about .container .content .right .list ul li .item li{
+    margin: 0 0 1.1rem;
+    margin-bottom: .7rem;
+}
+
+.about .container .content .right .list ul li .item li span{
+    font-family: var(--fontFamilyExtra);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--titulo);
+    text-transform: capitalize;
+}
+
+.about .container .content .right .list ul li .item li p{
+    font-size: 1.6rem;
+}
+
+.about .container .content .right a{
+    padding: 1.3rem 4.3rem;
+    display: inline-block;
+}
+
+.about .container .content .right a span{
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
 }
