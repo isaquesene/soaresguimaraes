@@ -614,6 +614,7 @@ footer .container{
 
 footer .container p{
     font-family: var(--fontFamilyExtra);
+    color: #797878;
 }
 
 footer .container p a{
